@@ -1,14 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { InvoicePositionFormComponent } from './invoice-position-form/invoice-position-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InvoicePositionFormComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
